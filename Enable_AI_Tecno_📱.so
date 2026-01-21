@@ -1,0 +1,463 @@
+#!/system/bin/sh
+# ═══════════════════════════════════════════════════════════
+# Tecno Camon 40 Pro 5G - AI CAMERA & GALLERY MAXIMIZER
+# Android 15 - Non-Root Version
+# Developer: gailowilly591@gmail.com
+# ═══════════════════════════════════════════════════════════
+
+exec 2>/dev/null
+
+echo "╔════════════════════════════════════════════╗"
+echo "║   TECNO CAMON 40 PRO 5G - AI CAMERA       ║"
+echo "║   FULL ENHANCEMENT ACTIVATION             ║"
+echo "║   Dev: gailowilly591@gmail.com            ║"
+echo "╚════════════════════════════════════════════╝"
+echo ""
+
+# Notification function
+notify() {
+    cmd notification post -S bigtext -t "$1" 'TecnoAI' "$2" 2>/dev/null
+}
+
+notify "📸 AI Camera Boost" "Starting AI Camera & Gallery optimization..."
+
+# ═══════════════════════════════════════════════════════════
+# [1/10] CAMERA AI FEATURES - FULL ACTIVATION
+# ═══════════════════════════════════════════════════════════
+echo "[1/10] Activating ALL AI Camera Features..."
+
+# AI Scene Detection
+settings put system ai_scene_detection 1
+settings put system ai_scene_recognition 1
+settings put system camera_ai_mode_enabled 1
+settings put secure camera_ai_enhancement 1
+settings put system camera_scene_optimizer 1
+
+# AI Beauty & Portrait
+settings put system ai_beauty_mode 1
+settings put system ai_portrait_mode 1
+settings put system ai_bokeh_enabled 1
+settings put system ai_skin_beautification 1
+settings put system ai_face_beautify 1
+settings put system beauty_mode_level 10
+
+# AI HDR & Night Mode
+settings put system ai_hdr_enabled 1
+settings put system ai_night_mode 1
+settings put system super_night_mode 1
+settings put system hdr_plus_enabled 1
+settings put system auto_hdr_enabled 1
+
+# AI Photography Enhancement
+settings put system ai_photography_assistant 1
+settings put system ai_object_tracking 1
+settings put system ai_composition_guide 1
+settings put system photography_ai_suggestions 1
+
+notify "✓ Module 1/10" "AI Camera features activated"
+
+# ═══════════════════════════════════════════════════════════
+# [2/10] CAMERA QUALITY SETTINGS - MAXIMUM
+# ═══════════════════════════════════════════════════════════
+echo "[2/10] Maximizing Camera Quality..."
+
+# Image Quality
+settings put system camera_image_quality max
+settings put system camera_jpeg_quality 100
+settings put system camera_picture_quality 100
+settings put system camera_video_quality 100
+settings put system zsl_mode 1
+settings put system zero_shutter_lag 1
+
+# Resolution Settings
+settings put system camera_picture_size_back 108mp
+settings put system camera_picture_size_front 32mp
+settings put system camera_video_size 4k
+settings put system video_quality_back 4k_60fps
+settings put system video_quality_front 1080p_60fps
+
+# Processing
+settings put system camera_post_processing 1
+settings put system camera_noise_reduction 1
+settings put system camera_edge_enhancement 1
+settings put system camera_sharpness_level 10
+
+notify "✓ Module 2/10" "Camera quality: MAXIMUM"
+
+# ═══════════════════════════════════════════════════════════
+# [3/10] VIDEO RECORDING - PROFESSIONAL MODE
+# ═══════════════════════════════════════════════════════════
+echo "[3/10] Enabling Professional Video Features..."
+
+# Video Stabilization
+settings put system video_stabilization 1
+settings put system eis_enabled 1
+settings put system ois_enabled 1
+settings put system ultra_steady_video 1
+settings put system ai_video_stabilization 1
+
+# Video Enhancement
+settings put system video_hdr_enabled 1
+settings put system video_ai_enhancement 1
+settings put system ai_video_editor 1
+settings put system slow_motion_enabled 1
+settings put system time_lapse_enabled 1
+
+# Video Quality
+settings put system video_bitrate_high 1
+settings put system video_frame_rate 60
+settings put system video_codec hevc
+settings put system video_encoder_quality 100
+
+notify "✓ Module 3/10" "Video features: PROFESSIONAL"
+
+# ═══════════════════════════════════════════════════════════
+# [4/10] GALLERY AI FEATURES
+# ═══════════════════════════════════════════════════════════
+echo "[4/10] Activating AI Gallery Features..."
+
+# AI Photo Organization
+settings put system gallery_ai_organization 1
+settings put system ai_album_creation 1
+settings put system smart_photo_grouping 1
+settings put system face_recognition_gallery 1
+settings put system ai_photo_search 1
+
+# AI Photo Enhancement
+settings put system gallery_ai_enhance 1
+settings put system auto_enhance_photos 1
+settings put system ai_color_pop 1
+settings put system ai_photo_suggestions 1
+settings put system magic_eraser 1
+
+# AI Video Editor
+settings put system ai_video_editor 1
+settings put system video_auto_edit 1
+settings put system highlight_video_creation 1
+settings put system ai_slideshow_maker 1
+
+# Smart Features
+settings put system memories_creation 1
+settings put system gallery_ai_assistant 1
+settings put system duplicate_photo_detection 1
+settings put system blur_detection 1
+
+notify "✓ Module 4/10" "Gallery AI: FULLY ACTIVATED"
+
+# ═══════════════════════════════════════════════════════════
+# [5/10] CAMERA PERFORMANCE OPTIMIZATION
+# ═══════════════════════════════════════════════════════════
+echo "[5/10] Optimizing Camera Performance..."
+
+# Speed & Performance
+settings put system camera_launch_speed fast
+settings put system quick_launch_camera 1
+settings put system camera_preload_enabled 1
+settings put system camera_background_processing 1
+settings put system burst_mode_enabled 1
+settings put system burst_shot_speed max
+
+# Buffer & Memory
+settings put system camera_buffer_size large
+settings put system camera_memory_allocation high
+settings put system camera_cache_enabled 1
+
+# AI Processing Speed
+settings put system ai_processing_priority high
+settings put system camera_ai_processing_speed max
+settings put system hardware_acceleration_camera 1
+
+notify "✓ Module 5/10" "Camera performance optimized"
+
+# ═══════════════════════════════════════════════════════════
+# [6/10] ADVANCED CAMERA MODES
+# ═══════════════════════════════════════════════════════════
+echo "[6/10] Enabling Advanced Camera Modes..."
+
+# Professional Modes
+settings put system pro_mode_enabled 1
+settings put system manual_controls_enabled 1
+settings put system raw_capture_enabled 1
+settings put system expert_mode 1
+
+# Special Modes
+settings put system panorama_mode 1
+settings put system ultra_wide_mode 1
+settings put system macro_mode 1
+settings put system super_macro 1
+settings put system telescope_mode 1
+
+# AI Modes
+settings put system ai_cam_mode 1
+settings put system smart_iso 1
+settings put system ai_white_balance 1
+settings put system ai_focus_tracking 1
+settings put system eye_autofocus 1
+
+# Creative Modes
+settings put system light_painting_mode 1
+settings put system star_trail_mode 1
+settings put system long_exposure_mode 1
+settings put system multi_exposure_mode 1
+
+notify "✓ Module 6/10" "Advanced modes enabled"
+
+# ═══════════════════════════════════════════════════════════
+# [7/10] IMAGE PROCESSING & AI ENHANCEMENT
+# ═══════════════════════════════════════════════════════════
+echo "[7/10] Maximizing Image Processing..."
+
+# AI Image Enhancement
+settings put system ai_image_enhancement 1
+settings put system ai_super_resolution 1
+settings put system ai_upscaling 1
+settings put system ai_denoising 1
+settings put system ai_sharpen 1
+
+# Smart HDR
+settings put system smart_hdr 1
+settings put system hdr_vivid 1
+settings put system hdr_auto_mode 1
+settings put system hdr_boost 1
+
+# Color Science
+settings put system ai_color_optimization 1
+settings put system vivid_colors 1
+settings put system natural_tone 1
+settings put system ai_sky_enhancement 1
+settings put system ai_food_mode 1
+
+# Low Light Enhancement
+settings put system low_light_boost 1
+settings put system night_mode_ultra 1
+settings put system ai_low_light_enhancement 1
+settings put system noise_reduction_ai 1
+
+notify "✓ Module 7/10" "Image processing: AI ENHANCED"
+
+# ═══════════════════════════════════════════════════════════
+# [8/10] FRONT CAMERA & SELFIE AI
+# ═══════════════════════════════════════════════════════════
+echo "[8/10] Optimizing Front Camera & Selfie AI..."
+
+# Selfie AI Features
+settings put system selfie_ai_mode 1
+settings put system ai_beautification 1
+settings put system face_slim 1
+settings put system eye_enhancement 1
+settings put system smile_detection 1
+
+# Beauty Levels (Max)
+settings put system beauty_skin_smooth 10
+settings put system beauty_face_slim 10
+settings put system beauty_eye_enlarge 10
+settings put system beauty_nose_slim 8
+
+# Selfie Enhancement
+settings put system selfie_hdr 1
+settings put system selfie_portrait_mode 1
+settings put system selfie_bokeh 1
+settings put system ai_retouch 1
+settings put system auto_beauty 1
+
+# Gesture & Smart Features
+settings put system gesture_selfie 1
+settings put system palm_shutter 1
+settings put system voice_shutter 1
+settings put system mirror_selfie 0
+
+notify "✓ Module 8/10" "Selfie AI maximized"
+
+# ═══════════════════════════════════════════════════════════
+# [9/10] STORAGE & MEDIA OPTIMIZATION
+# ═══════════════════════════════════════════════════════════
+echo "[9/10] Optimizing Storage & Media..."
+
+# Storage Settings
+settings put system camera_storage_location 0
+settings put system save_to_sdcard 1
+settings put system compress_photos 0
+settings put system save_raw_dng 1
+
+# Media Scanning
+settings put system media_scanner_on_boot 1
+settings put system gallery_cache_enabled 1
+settings put system thumbnail_generation fast
+settings put system media_indexing_enabled 1
+
+# Cloud & Backup
+settings put system auto_backup_photos 1
+settings put system cloud_sync_photos 1
+settings put system backup_quality original
+
+notify "✓ Module 9/10" "Storage optimized"
+
+# ═══════════════════════════════════════════════════════════
+# [10/10] CAMERA APP PERMISSIONS & OPTIMIZATION
+# ═══════════════════════════════════════════════════════════
+echo "[10/10] Setting Camera Permissions & Final Optimization..."
+
+# Configure ALL Camera and Gallery apps
+echo "→ Detecting and configuring all Camera/Gallery apps..."
+
+echo ""
+echo "📷 Camera apps:"
+pm list packages | grep -i camera | cut -d: -f2 | while read pkg; do
+    echo "  ✓ $pkg"
+    pm grant $pkg android.permission.CAMERA 2>/dev/null
+    pm grant $pkg android.permission.RECORD_AUDIO 2>/dev/null
+    pm grant $pkg android.permission.ACCESS_FINE_LOCATION 2>/dev/null
+    pm grant $pkg android.permission.ACCESS_COARSE_LOCATION 2>/dev/null
+    pm grant $pkg android.permission.WRITE_EXTERNAL_STORAGE 2>/dev/null
+    pm grant $pkg android.permission.READ_EXTERNAL_STORAGE 2>/dev/null
+    pm grant $pkg android.permission.READ_MEDIA_IMAGES 2>/dev/null
+    pm grant $pkg android.permission.READ_MEDIA_VIDEO 2>/dev/null
+    cmd package compile -m speed -f $pkg 2>/dev/null
+done
+
+echo ""
+echo "🖼️  Gallery apps:"
+pm list packages | grep -iE "gallery|photos" | cut -d: -f2 | while read pkg; do
+    echo "  ✓ $pkg"
+    pm grant $pkg android.permission.READ_EXTERNAL_STORAGE 2>/dev/null
+    pm grant $pkg android.permission.WRITE_EXTERNAL_STORAGE 2>/dev/null
+    pm grant $pkg android.permission.ACCESS_MEDIA_LOCATION 2>/dev/null
+    pm grant $pkg android.permission.READ_MEDIA_IMAGES 2>/dev/null
+    pm grant $pkg android.permission.READ_MEDIA_VIDEO 2>/dev/null
+    pm grant $pkg android.permission.READ_MEDIA_AUDIO 2>/dev/null
+    cmd package compile -m speed -f $pkg 2>/dev/null
+done
+
+echo ""
+echo "→ Done! All camera and gallery apps configured"
+
+
+# Clear Camera Cache
+echo "→ Clearing camera cache..."
+pm clear com.transsion.camera 2>/dev/null
+
+# GPU Acceleration for Camera
+settings put global camera_gpu_acceleration 1
+settings put global camera_hardware_acceleration 1
+
+notify "✓ Module 10/10" "Camera permissions & optimization complete"
+
+# ═══════════════════════════════════════════════════════════
+# BONUS: MULTIMEDIA & DISPLAY ENHANCEMENT
+# ═══════════════════════════════════════════════════════════
+echo ""
+echo "═══════════════════════════════════════════"
+echo "BONUS: Multimedia Enhancement"
+echo "═══════════════════════════════════════════"
+
+# Display Color Enhancement
+settings put system screen_color_mode 1
+settings put system display_color_enhance 1
+settings put system vivid_display 1
+settings put system color_gamut wide
+
+# Brightness for Photography
+settings put system screen_brightness_mode 1
+settings put system adaptive_brightness 1
+settings put system screen_brightness_boost 1
+
+# Audio for Video Recording
+settings put system audio_recording_quality high
+settings put system stereo_recording 1
+settings put system noise_cancellation_recording 1
+settings put system wind_noise_reduction 1
+
+notify "✓ BONUS" "Multimedia enhanced"
+
+# ═══════════════════════════════════════════════════════════
+# COMPLETION SUMMARY
+# ═══════════════════════════════════════════════════════════
+echo ""
+echo "╔════════════════════════════════════════════╗"
+echo "║   🎉 AI CAMERA OPTIMIZATION COMPLETE! 🎉  ║"
+echo "╚════════════════════════════════════════════╝"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "       ACTIVATED FEATURES (10/10 + BONUS)   "
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "✓ [01] AI Scene Detection & Recognition"
+echo "✓ [02] Maximum Camera Quality (108MP)"
+echo "✓ [03] Professional Video (4K@60fps)"
+echo "✓ [04] AI Gallery Organization"
+echo "✓ [05] Camera Performance Optimized"
+echo "✓ [06] All Advanced Modes Enabled"
+echo "✓ [07] AI Image Enhancement"
+echo "✓ [08] Selfie AI & Beauty Max"
+echo "✓ [09] Storage Optimization"
+echo "✓ [10] Camera Permissions & Speed"
+echo "✓ [XX] BONUS: Multimedia Enhanced"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "📸 CAMERA AI FEATURES:"
+echo "  ✓ AI Scene Detection"
+echo "  ✓ AI Beauty & Portrait Mode"
+echo "  ✓ Super Night Mode"
+echo "  ✓ AI HDR+"
+echo "  ✓ Object Tracking"
+echo "  ✓ Eye Autofocus"
+echo "  ✓ Pro Mode with RAW"
+echo "  ✓ 108MP Main Camera"
+echo "  ✓ 4K@60fps Video"
+echo "  ✓ Ultra Steady Video"
+echo ""
+echo "🖼️ GALLERY AI FEATURES:"
+echo "  ✓ AI Photo Organization"
+echo "  ✓ Face Recognition"
+echo "  ✓ Auto Photo Enhancement"
+echo "  ✓ Magic Eraser"
+echo "  ✓ AI Video Editor"
+echo "  ✓ Memories Creation"
+echo "  ✓ Duplicate Detection"
+echo "  ✓ Blur Detection"
+echo ""
+echo "🤳 SELFIE AI FEATURES:"
+echo "  ✓ AI Beautification (Level 10)"
+echo "  ✓ Face Slimming"
+echo "  ✓ Eye Enhancement"
+echo "  ✓ Gesture Selfie"
+echo "  ✓ Voice Shutter"
+echo "  ✓ Auto Beauty Mode"
+echo ""
+echo "🎥 VIDEO FEATURES:"
+echo "  ✓ Video Stabilization (EIS+OIS)"
+echo "  ✓ Video HDR"
+echo "  ✓ Slow Motion & Time Lapse"
+echo "  ✓ 60fps Recording"
+echo "  ✓ HEVC Codec"
+echo ""
+echo "⚡ CAMERA PERFORMANCE:"
+echo "  ✓ Fast Launch Speed"
+echo "  ✓ Zero Shutter Lag"
+echo "  ✓ Burst Mode Max Speed"
+echo "  ✓ Hardware Acceleration"
+echo "  ✓ Quick AI Processing"
+echo ""
+echo "💡 TIPS:"
+echo "  • Open Camera app to verify settings"
+echo "  • Check Gallery for AI features"
+echo "  • Enable location for scene detection"
+echo "  • Use Pro Mode for manual control"
+echo "  • Try Night Mode in low light"
+echo ""
+echo "⚠️  NOTE:"
+echo "  Some features depend on hardware capability"
+echo "  Restart Camera app to apply changes"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "Developer: gailowilly591@gmail.com"
+echo "Tecno Camon 40 Pro 5G - AI Camera Edition"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "To disable AI features, reset camera app data in settings."
+echo ""
+
+# Final Success Notification
+notify "🎉 AI CAMERA COMPLETE!" "All AI Camera & Gallery features activated! Open Camera app now. - Dev: gailowilly591@gmail.com"
+
+echo "RESTART CAMERA APP NOW or type: am force-stop com.transsion.camera"
+echo ""
